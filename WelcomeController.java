@@ -11,6 +11,11 @@ public class WelcomeController {
 	{
 		return "success";
 	}
+	@RequestMapping(value="/test",method = RequestMethod.GET)
+	public String test()
+	{
+		return "welcome";
+	}
 
 }
 //http://localhost:8080/SpringWebMaven/welcome
