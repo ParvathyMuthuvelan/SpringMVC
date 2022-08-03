@@ -48,7 +48,9 @@
                     <td style="font-style: italic; color: red;">${message}</td>
                 </tr>
             </table>
+<%
 
+%>
         </body>
 
         </html>
